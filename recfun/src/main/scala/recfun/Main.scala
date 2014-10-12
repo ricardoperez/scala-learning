@@ -25,7 +25,23 @@ object Main {
   /**
    * Exercise 2
    */
-  def balance(chars: List[Char]): Boolean = true
+  def balance(chars: List[Char]): Boolean = {
+    if(chars.isEmpty){
+      return false
+    }else{
+      
+      def balancerec(count:Int, char:Char, first:Int): Boolean = {
+        if(char == '('){
+          balancerec(count + 1, chars(count), 1)
+        }
+        
+        if(char == ')'){
+          return false
+        }
+      }
+      return true
+    }
+  }
 
   /**
    * Exercise 3
