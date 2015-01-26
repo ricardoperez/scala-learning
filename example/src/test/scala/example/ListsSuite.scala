@@ -47,7 +47,7 @@ class ListsSuite extends FunSuite {
    * This allows tests to be written in a more readable manner:
    */
   test("one plus one is three?") {
-    assert(1 + 1 == 2) // This assertion fails! Go ahead and fix it.
+    assert(1 + 1 != 3) // This assertion fails! Go ahead and fix it.
   }
 
 
@@ -117,15 +117,34 @@ class ListsSuite extends FunSuite {
   test("sum of a few numbers") {
     assert(sum(List(1,2,0)) === 3)
   }
-  
+
+  test("more sum of a numbers") {
+    assert(sum(List(1,2,3)) === 6)
+  }
+
   test("max of a few numbers") {
     assert(max(List(3, 7, 2)) === 7)
   }
-  
+
+  test("max of a more numbers") {
+    assert(max(List(8, 7, 2)) === 8)
+  }
+
+  test("maxNumber of a list numbers") {
+    assert(maxNumber(List(7, 2), 8) === 8)
+  }
+
+  test("show the bigger number") {
+    assert(bigger(10, 8) === 10)
+  }
+
+  test("show the bigger number again") {
+    assert(bigger(8, 10) === 10)
+  }
+
   test("no max in empty list") {
     intercept[java.util.NoSuchElementException] {
       max(List())
     }
   }
-  
 }

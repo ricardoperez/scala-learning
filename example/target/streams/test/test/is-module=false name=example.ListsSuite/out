@@ -4,5 +4,10 @@
 [0m[[0minfo[0m] [0m[32m- details why one plus one is not three[0m[0m
 [0m[[0minfo[0m] [0m[32m- intNotZero throws an exception if its argument is 0[0m[0m
 [0m[[0minfo[0m] [0m[32m- sum of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- more sum of a numbers[0m[0m
 [0m[[0minfo[0m] [0m[32m- max of a few numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- max of a more numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- maxNumber of a list numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- show the bigger number[0m[0m
+[0m[[0minfo[0m] [0m[32m- show the bigger number again[0m[0m
 [0m[[0minfo[0m] [0m[32m- no max in empty list[0m[0m
